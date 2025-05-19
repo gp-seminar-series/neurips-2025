@@ -1,0 +1,16 @@
+base_url = "https://aterenin.github.io/neurips-2025"
+compile_sass = true
+build_search_index = false
+generate_feeds = false
+minify_html = true
+theme = "academic-workshop"
+ignored_static = ["sponsorship_prospectus.pdf","travel-support-CVs/*"]
+
+[markdown]
+highlight_code = false
+smart_punctuation = true
+
+[extra]
+title = {tagline = "NeurIPS workshop proposal on", title = "Bayesian Decision-making and Uncertainty", subtitles = ["San Diego, California, United States", "December 7, 2025"]}
+banner = {extension = "svg", size = "fit-height", fade = true}
+header_pages = [{name = "Home", url = "/#home"},{name = "Schedule", url = "/#schedule"}]
